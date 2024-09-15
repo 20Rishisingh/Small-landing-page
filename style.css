@@ -1,0 +1,108 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-color: rgb(213, 156, 100);
+}
+
+.navbar{
+   /* border: 2px solid red; */
+   height: 300px;
+   text-align: center;
+   margin: auto;
+   background-image: url(./Coffee-bg.webp);
+   background-size: contain;
+}
+
+.navbar #search{
+   font-size: 25px;
+   margin: 4% 0;
+   padding: 8px;
+   background-color: rgb(213, 156, 100);
+   color: black;
+   width: 50%;
+   border-radius: 10px;
+   position: relative;
+}
+
+.menu{
+   /* border: 2px solid red; */
+   height: 300px;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   padding: 2%;
+   margin: 10px 0;
+}
+
+.menu img{
+   height: 10rem;
+   width: 12rem;
+   margin: 8px; 
+   border-radius: 50%;
+   box-shadow: 15px 15px 20px black;
+}
+
+.menu img:hover{
+   border: 5px solid chocolate;
+   box-shadow: 0 0;
+}
+
+.menu p{
+   font-size: 28px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-style: italic;
+}
+
+.menu .mug1 p{
+   margin: 1rem 3.2rem;
+}
+
+.menu .mug2 p{
+   margin: 1rem 3.6rem;
+}
+
+.menu .mug3 p{
+   margin: 1rem 3rem;
+}
+
+.menu .mug4 p{
+   margin: 1rem 4.6rem;
+}
+
+.menu p:hover{
+   text-decoration: underline 3px chocolate;
+}
+
+.para1{
+   border: 2px solid red;
+   margin: 4rem 10rem;
+   padding: 20px;
+   background-color: rgb(210, 88, 0);
+   color: pink;
+   font-size: 30px;
+   line-break: loose;
+   border-radius: 25px;
+}
+
+h3{
+   line-height: 80px;
+}
+
+.para2{
+   border: 2px solid red;
+   margin: 4rem 10rem;
+   padding: 20px;
+   background-color: rgb(210, 88, 0);
+   color: pink;
+   font-size: 30px;
+   line-break: loose;
+   border-radius: 25px;
+}
+
+.text .para2 ol{
+   margin: 30px;
+}
